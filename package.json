@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
-    "build": "rm -rt build/ &&  tsc",
-    "start": "node build/server.js"
+    "build": "node init && rm -rt build/ &&  tsc",
+    "start": "node init && node build/server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "joi": "^17.8.3",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.9.2",
+    "node-fetch": "^3.3.2",
     "nodemon": "^2.0.20",
     "ts-node": "^10.9.1"
   },

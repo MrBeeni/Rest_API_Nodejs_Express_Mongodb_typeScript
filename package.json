@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
-    "build": "node init && rm -rt build/ &&  tsc",
-    "start": "node init && node build/server.js"
+    "build": "rm -rt build/ &&  tsc",
+    "start": "node build/server.js"
   },
   "keywords": [],
   "author": "",
